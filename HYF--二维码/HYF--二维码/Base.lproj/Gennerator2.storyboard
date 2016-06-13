@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NTW-EE-uKp">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--Detector-->
+        <scene sceneID="HOO-OQ-PWs">
+            <objects>
+                <viewController title="Detector" id="NTW-EE-uKp" customClass="Gennerator" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="byo-AJ-MG6"/>
+                        <viewControllerLayoutGuide type="bottom" id="OV5-Dg-aM3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vtx-pg-2Nj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_picture" translatesAutoresizingMaskIntoConstraints="NO" id="On5-bH-6oD">
+                                <rect key="frame" x="27" y="114" width="266" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="kcT-JS-wV0"/>
+                                    <constraint firstAttribute="width" constant="266" id="uUz-JX-mtk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arW-G3-AzO">
+                                <rect key="frame" x="27" y="297" width="66" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="hXR-AT-VZW"/>
+                                    <constraint firstAttribute="height" constant="37" id="s2Z-vZ-14n"/>
+                                </constraints>
+                                <state key="normal" title="照相"/>
+                                <connections>
+                                    <action selector="photo:" destination="NTW-EE-uKp" eventType="touchUpInside" id="Rue-Gs-2bR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-02-3Ff">
+                                <rect key="frame" x="247" y="297" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eBH-Df-aKC"/>
+                                    <constraint firstAttribute="width" constant="46" id="v3s-wc-bIv"/>
+                                </constraints>
+                                <state key="normal" title="相册"/>
+                                <connections>
+                                    <action selector="photo:" destination="NTW-EE-uKp" eventType="touchUpInside" id="Gsv-7i-Ztc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ycy-02-3Ff" firstAttribute="trailing" secondItem="On5-bH-6oD" secondAttribute="trailing" id="EyQ-75-TAE"/>
+                            <constraint firstItem="On5-bH-6oD" firstAttribute="centerX" secondItem="vtx-pg-2Nj" secondAttribute="centerX" id="KT6-PO-rrZ"/>
+                            <constraint firstItem="arW-G3-AzO" firstAttribute="leading" secondItem="On5-bH-6oD" secondAttribute="leading" id="NLr-ZN-t3A"/>
+                            <constraint firstItem="arW-G3-AzO" firstAttribute="top" secondItem="On5-bH-6oD" secondAttribute="bottom" constant="30" id="SFh-2Z-C1R"/>
+                            <constraint firstItem="On5-bH-6oD" firstAttribute="top" secondItem="byo-AJ-MG6" secondAttribute="bottom" constant="50" id="gHi-r0-U3b"/>
+                            <constraint firstItem="Ycy-02-3Ff" firstAttribute="top" secondItem="On5-bH-6oD" secondAttribute="bottom" constant="30" id="ziq-Zu-1uM"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ImageV" destination="On5-bH-6oD" id="dz6-uR-MpE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73d-Rp-Nqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="489"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="empty_picture" width="100" height="100"/>
+    </resources>
+</document>

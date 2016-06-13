@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7AE727F1D0D7619005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE727E1D0D7619005986B7 /* main.m */; };
+		A7AE72821D0D7619005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72811D0D7619005986B7 /* AppDelegate.m */; };
+		A7AE72851D0D7619005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72841D0D7619005986B7 /* ViewController.m */; };
+		A7AE72881D0D7619005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72861D0D7619005986B7 /* Main.storyboard */; };
+		A7AE728A1D0D7619005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72891D0D7619005986B7 /* Assets.xcassets */; };
+		A7AE728D1D0D7619005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE728B1D0D7619005986B7 /* LaunchScreen.storyboard */; };
+		A7AE72981D0D7619005986B7 /* HYF____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72971D0D7619005986B7 /* HYF____Tests.m */; };
+		A7AE72A31D0D7619005986B7 /* HYF____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72A21D0D7619005986B7 /* HYF____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AE72941D0D7619005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE72721D0D7619005986B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AE72791D0D7619005986B7;
+			remoteInfo = "HYF-数据库";
+		};
+		A7AE729F1D0D7619005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE72721D0D7619005986B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AE72791D0D7619005986B7;
+			remoteInfo = "HYF-数据库";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7AE727A1D0D7619005986B7 /* HYF-数据库.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HYF-数据库.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE727E1D0D7619005986B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE72801D0D7619005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE72811D0D7619005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE72831D0D7619005986B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE72841D0D7619005986B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE72871D0D7619005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE72891D0D7619005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE728C1D0D7619005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE728E1D0D7619005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE72931D0D7619005986B7 /* HYF-数据库Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HYF-数据库Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE72971D0D7619005986B7 /* HYF____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HYF____Tests.m"; sourceTree = "<group>"; };
+		A7AE72991D0D7619005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE729E1D0D7619005986B7 /* HYF-数据库UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HYF-数据库UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE72A21D0D7619005986B7 /* HYF____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HYF____UITests.m"; sourceTree = "<group>"; };
+		A7AE72A41D0D7619005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AE72771D0D7619005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72901D0D7619005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE729B1D0D7619005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7AE72711D0D7619005986B7 = {
+			isa = PBXGroup;
+			children = (
+				A7AE727C1D0D7619005986B7 /* HYF-数据库 */,
+				A7AE72961D0D7619005986B7 /* HYF-数据库Tests */,
+				A7AE72A11D0D7619005986B7 /* HYF-数据库UITests */,
+				A7AE727B1D0D7619005986B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AE727B1D0D7619005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE727A1D0D7619005986B7 /* HYF-数据库.app */,
+				A7AE72931D0D7619005986B7 /* HYF-数据库Tests.xctest */,
+				A7AE729E1D0D7619005986B7 /* HYF-数据库UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE727C1D0D7619005986B7 /* HYF-数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72801D0D7619005986B7 /* AppDelegate.h */,
+				A7AE72811D0D7619005986B7 /* AppDelegate.m */,
+				A7AE72831D0D7619005986B7 /* ViewController.h */,
+				A7AE72841D0D7619005986B7 /* ViewController.m */,
+				A7AE72861D0D7619005986B7 /* Main.storyboard */,
+				A7AE72891D0D7619005986B7 /* Assets.xcassets */,
+				A7AE728B1D0D7619005986B7 /* LaunchScreen.storyboard */,
+				A7AE728E1D0D7619005986B7 /* Info.plist */,
+				A7AE727D1D0D7619005986B7 /* Supporting Files */,
+			);
+			path = "HYF-数据库";
+			sourceTree = "<group>";
+		};
+		A7AE727D1D0D7619005986B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE727E1D0D7619005986B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7AE72961D0D7619005986B7 /* HYF-数据库Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72971D0D7619005986B7 /* HYF____Tests.m */,
+				A7AE72991D0D7619005986B7 /* Info.plist */,
+			);
+			path = "HYF-数据库Tests";
+			sourceTree = "<group>";
+		};
+		A7AE72A11D0D7619005986B7 /* HYF-数据库UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72A21D0D7619005986B7 /* HYF____UITests.m */,
+				A7AE72A41D0D7619005986B7 /* Info.plist */,
+			);
+			path = "HYF-数据库UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AE72791D0D7619005986B7 /* HYF-数据库 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE72A71D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库" */;
+			buildPhases = (
+				A7AE72761D0D7619005986B7 /* Sources */,
+				A7AE72771D0D7619005986B7 /* Frameworks */,
+				A7AE72781D0D7619005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYF-数据库";
+			productName = "HYF-数据库";
+			productReference = A7AE727A1D0D7619005986B7 /* HYF-数据库.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7AE72921D0D7619005986B7 /* HYF-数据库Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE72AA1D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库Tests" */;
+			buildPhases = (
+				A7AE728F1D0D7619005986B7 /* Sources */,
+				A7AE72901D0D7619005986B7 /* Frameworks */,
+				A7AE72911D0D7619005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AE72951D0D7619005986B7 /* PBXTargetDependency */,
+			);
+			name = "HYF-数据库Tests";
+			productName = "HYF-数据库Tests";
+			productReference = A7AE72931D0D7619005986B7 /* HYF-数据库Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7AE729D1D0D7619005986B7 /* HYF-数据库UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE72AD1D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库UITests" */;
+			buildPhases = (
+				A7AE729A1D0D7619005986B7 /* Sources */,
+				A7AE729B1D0D7619005986B7 /* Frameworks */,
+				A7AE729C1D0D7619005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AE72A01D0D7619005986B7 /* PBXTargetDependency */,
+			);
+			name = "HYF-数据库UITests";
+			productName = "HYF-数据库UITests";
+			productReference = A7AE729E1D0D7619005986B7 /* HYF-数据库UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AE72721D0D7619005986B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "my xcode01";
+				TargetAttributes = {
+					A7AE72791D0D7619005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A7AE72921D0D7619005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7AE72791D0D7619005986B7;
+					};
+					A7AE729D1D0D7619005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7AE72791D0D7619005986B7;
+					};
+				};
+			};
+			buildConfigurationList = A7AE72751D0D7619005986B7 /* Build configuration list for PBXProject "HYF-数据库" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7AE72711D0D7619005986B7;
+			productRefGroup = A7AE727B1D0D7619005986B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7AE72791D0D7619005986B7 /* HYF-数据库 */,
+				A7AE72921D0D7619005986B7 /* HYF-数据库Tests */,
+				A7AE729D1D0D7619005986B7 /* HYF-数据库UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AE72781D0D7619005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE728D1D0D7619005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE728A1D0D7619005986B7 /* Assets.xcassets in Resources */,
+				A7AE72881D0D7619005986B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72911D0D7619005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE729C1D0D7619005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AE72761D0D7619005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE72851D0D7619005986B7 /* ViewController.m in Sources */,
+				A7AE72821D0D7619005986B7 /* AppDelegate.m in Sources */,
+				A7AE727F1D0D7619005986B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE728F1D0D7619005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE72981D0D7619005986B7 /* HYF____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE729A1D0D7619005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE72A31D0D7619005986B7 /* HYF____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AE72951D0D7619005986B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AE72791D0D7619005986B7 /* HYF-数据库 */;
+			targetProxy = A7AE72941D0D7619005986B7 /* PBXContainerItemProxy */;
+		};
+		A7AE72A01D0D7619005986B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AE72791D0D7619005986B7 /* HYF-数据库 */;
+			targetProxy = A7AE729F1D0D7619005986B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7AE72861D0D7619005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE72871D0D7619005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE728B1D0D7619005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE728C1D0D7619005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AE72A51D0D7619005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7AE72A61D0D7619005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AE72A81D0D7619005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYF-数据库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7AE72A91D0D7619005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HYF-数据库/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7AE72AB1D0D7619005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HYF-数据库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYF-数据库.app/HYF-数据库";
+			};
+			name = Debug;
+		};
+		A7AE72AC1D0D7619005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "HYF-数据库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYF-数据库.app/HYF-数据库";
+			};
+			name = Release;
+		};
+		A7AE72AE1D0D7619005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HYF-数据库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HYF-数据库";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7AE72AF1D0D7619005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HYF-数据库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.HYF----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HYF-数据库";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AE72751D0D7619005986B7 /* Build configuration list for PBXProject "HYF-数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72A51D0D7619005986B7 /* Debug */,
+				A7AE72A61D0D7619005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AE72A71D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72A81D0D7619005986B7 /* Debug */,
+				A7AE72A91D0D7619005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7AE72AA1D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72AB1D0D7619005986B7 /* Debug */,
+				A7AE72AC1D0D7619005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7AE72AD1D0D7619005986B7 /* Build configuration list for PBXNativeTarget "HYF-数据库UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72AE1D0D7619005986B7 /* Debug */,
+				A7AE72AF1D0D7619005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7AE72721D0D7619005986B7 /* Project object */;
+}

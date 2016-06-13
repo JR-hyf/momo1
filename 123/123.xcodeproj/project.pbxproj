@@ -1,0 +1,2602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7AE72D51D0D7B52005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72D41D0D7B52005986B7 /* main.m */; };
+		A7AE72D81D0D7B52005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72D71D0D7B52005986B7 /* AppDelegate.m */; };
+		A7AE72DB1D0D7B52005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72DA1D0D7B52005986B7 /* ViewController.m */; };
+		A7AE72DE1D0D7B52005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72DC1D0D7B52005986B7 /* Main.storyboard */; };
+		A7AE72E01D0D7B52005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72DF1D0D7B52005986B7 /* Assets.xcassets */; };
+		A7AE72E31D0D7B52005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE72E11D0D7B52005986B7 /* LaunchScreen.storyboard */; };
+		A7AE72EE1D0D7B52005986B7 /* _23Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72ED1D0D7B52005986B7 /* _23Tests.m */; };
+		A7AE72F91D0D7B53005986B7 /* _23UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE72F81D0D7B53005986B7 /* _23UITests.m */; };
+		A7AE74881D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73091D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74891D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE730A1D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE748A1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE730B1D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE748B1D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE730D1D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE748C1D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE730F1D0D7FB2005986B7 /* Info.plist */; };
+		A7AE748D1D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73101D0D7FB2005986B7 /* main.m */; };
+		A7AE748E1D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73121D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE748F1D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73191D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74901D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE731A1D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74911D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE731B1D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74921D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE731D1D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74931D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE731F1D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74941D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73201D0D7FB2005986B7 /* main.m */; };
+		A7AE74951D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73221D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74961D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73241D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74971D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE732B1D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74981D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE732C1D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74991D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE732D1D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE749A1D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE732F1D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE749B1D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73311D0D7FB2005986B7 /* Info.plist */; };
+		A7AE749C1D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73321D0D7FB2005986B7 /* main.m */; };
+		A7AE749D1D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73341D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE749E1D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73361D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE749F1D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE733C1D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74A01D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE733D1D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74A11D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE733F1D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74A21D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73441D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74A31D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73471D0D7FB2005986B7 /* Student.m */; };
+		A7AE74A41D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE734A1D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74A51D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE734B1D0D7FB2005986B7 /* main.m */; };
+		A7AE74A61D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE734E1D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74A71D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE734F1D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74A81D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73551D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74A91D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73561D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74AA1D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73581D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74AB1D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE735D1D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74AC1D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73601D0D7FB2005986B7 /* Student.m */; };
+		A7AE74AD1D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73631D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74AE1D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73641D0D7FB2005986B7 /* main.m */; };
+		A7AE74AF1D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73671D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74B01D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73681D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74B11D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE736E1D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74B21D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE736F1D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74B31D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73711D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74B41D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73761D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74B51D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73791D0D7FB2005986B7 /* Student.m */; };
+		A7AE74B61D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE737C1D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74B71D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE737D1D0D7FB2005986B7 /* main.m */; };
+		A7AE74B81D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73801D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74B91D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73811D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74BA1D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73871D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74BB1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73881D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74BC1D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE738A1D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74BD1D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE738F1D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74BE1D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73921D0D7FB2005986B7 /* Student.m */; };
+		A7AE74BF1D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73951D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74C01D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73961D0D7FB2005986B7 /* main.m */; };
+		A7AE74C11D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73991D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74C21D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE739A1D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74C31D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73A11D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74C41D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73A21D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74C51D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73A31D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74C61D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73A51D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74C71D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73A71D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74C81D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73A81D0D7FB2005986B7 /* main.m */; };
+		A7AE74C91D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73AA1D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74CA1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73AE1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcworkspace */; };
+		A7AE74CB1D0D7FB2005986B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73AF1D0D7FB2005986B7 /* Podfile */; };
+		A7AE74CC1D0D7FB2005986B7 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73B01D0D7FB2005986B7 /* Podfile.lock */; };
+		A7AE74CD1D0D7FB2005986B7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73B31D0D7FB2005986B7 /* LICENSE.txt */; };
+		A7AE74CE1D0D7FB2005986B7 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73B41D0D7FB2005986B7 /* README.markdown */; };
+		A7AE74CF1D0D7FB2005986B7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73B81D0D7FB2005986B7 /* FMDatabase.m */; };
+		A7AE74D01D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73BA1D0D7FB2005986B7 /* FMDatabaseAdditions.m */; };
+		A7AE74D11D0D7FB2005986B7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73BC1D0D7FB2005986B7 /* FMDatabasePool.m */; };
+		A7AE74D21D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73BE1D0D7FB2005986B7 /* FMDatabaseQueue.m */; };
+		A7AE74D31D0D7FB2005986B7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73C11D0D7FB2005986B7 /* FMResultSet.m */; };
+		A7AE74D41D0D7FB2005986B7 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73D41D0D7FB2005986B7 /* Manifest.lock */; };
+		A7AE74D51D0D7FB2005986B7 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73DA1D0D7FB2005986B7 /* FMDB-dummy.m */; };
+		A7AE74D61D0D7FB2005986B7 /* FMDB.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73DC1D0D7FB2005986B7 /* FMDB.xcconfig */; };
+		A7AE74D71D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73DE1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.markdown */; };
+		A7AE74D81D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73DF1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.plist */; };
+		A7AE74D91D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73E01D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-dummy.m */; };
+		A7AE74DA1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E11D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-frameworks.sh */; };
+		A7AE74DB1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E21D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-resources.sh */; };
+		A7AE74DC1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E31D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.debug.xcconfig */; };
+		A7AE74DD1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E41D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.release.xcconfig */; };
+		A7AE74DE1D0D7FB2005986B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E61D0D7FB2005986B7 /* Podfile */; };
+		A7AE74DF1D0D7FB2005986B7 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73E71D0D7FB2005986B7 /* Podfile.lock */; };
+		A7AE74E01D0D7FB2005986B7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7AE73EA1D0D7FB2005986B7 /* LICENSE.txt */; };
+		A7AE74E11D0D7FB2005986B7 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73EB1D0D7FB2005986B7 /* README.markdown */; };
+		A7AE74E21D0D7FB2005986B7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73EF1D0D7FB2005986B7 /* FMDatabase.m */; };
+		A7AE74E31D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73F11D0D7FB2005986B7 /* FMDatabaseAdditions.m */; };
+		A7AE74E41D0D7FB2005986B7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73F31D0D7FB2005986B7 /* FMDatabasePool.m */; };
+		A7AE74E51D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73F51D0D7FB2005986B7 /* FMDatabaseQueue.m */; };
+		A7AE74E61D0D7FB2005986B7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE73F81D0D7FB2005986B7 /* FMResultSet.m */; };
+		A7AE74E71D0D7FB2005986B7 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE740E1D0D7FB2005986B7 /* Manifest.lock */; };
+		A7AE74E81D0D7FB2005986B7 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74141D0D7FB2005986B7 /* FMDB-dummy.m */; };
+		A7AE74E91D0D7FB2005986B7 /* FMDB.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74161D0D7FB2005986B7 /* FMDB.xcconfig */; };
+		A7AE74EA1D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74181D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */; };
+		A7AE74EB1D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74191D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */; };
+		A7AE74EC1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE741A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */; };
+		A7AE74ED1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE741B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */; };
+		A7AE74EE1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE741C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */; };
+		A7AE74EF1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE741D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */; };
+		A7AE74F01D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE741E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */; };
+		A7AE74F11D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74201D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE74F21D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74211D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE74F31D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74231D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE74F41D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74281D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE74F51D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE742B1D0D7FB2005986B7 /* Student.m */; };
+		A7AE74F61D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE742E1D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE74F71D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE742F1D0D7FB2005986B7 /* main.m */; };
+		A7AE74F81D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74321D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE74F91D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74331D0D7FB2005986B7 /* Info.plist */; };
+		A7AE74FA1D0D7FB2005986B7 /* SQLite的使用.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74371D0D7FB2005986B7 /* SQLite的使用.xcworkspace */; };
+		A7AE74FB1D0D7FB2005986B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74391D0D7FB2005986B7 /* Podfile */; };
+		A7AE74FC1D0D7FB2005986B7 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE743A1D0D7FB2005986B7 /* Podfile.lock */; };
+		A7AE74FD1D0D7FB2005986B7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7AE743D1D0D7FB2005986B7 /* LICENSE.txt */; };
+		A7AE74FE1D0D7FB2005986B7 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE743E1D0D7FB2005986B7 /* README.markdown */; };
+		A7AE74FF1D0D7FB2005986B7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74421D0D7FB2005986B7 /* FMDatabase.m */; };
+		A7AE75001D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74441D0D7FB2005986B7 /* FMDatabaseAdditions.m */; };
+		A7AE75011D0D7FB2005986B7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74461D0D7FB2005986B7 /* FMDatabasePool.m */; };
+		A7AE75021D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74481D0D7FB2005986B7 /* FMDatabaseQueue.m */; };
+		A7AE75031D0D7FB2005986B7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE744B1D0D7FB2005986B7 /* FMResultSet.m */; };
+		A7AE75041D0D7FB2005986B7 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = A7AE745E1D0D7FB2005986B7 /* Manifest.lock */; };
+		A7AE75051D0D7FB2005986B7 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74641D0D7FB2005986B7 /* FMDB-dummy.m */; };
+		A7AE75061D0D7FB2005986B7 /* FMDB.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74661D0D7FB2005986B7 /* FMDB.xcconfig */; };
+		A7AE75071D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74681D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */; };
+		A7AE75081D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74691D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */; };
+		A7AE75091D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE746A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */; };
+		A7AE750A1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE746B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */; };
+		A7AE750B1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7AE746C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */; };
+		A7AE750C1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE746D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */; };
+		A7AE750D1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7AE746E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */; };
+		A7AE750E1D0D7FB2005986B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74701D0D7FB2005986B7 /* Assets.xcassets */; };
+		A7AE750F1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74711D0D7FB2005986B7 /* LaunchScreen.storyboard */; };
+		A7AE75101D0D7FB2005986B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74731D0D7FB2005986B7 /* Main.storyboard */; };
+		A7AE75111D0D7FB2005986B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74781D0D7FB2005986B7 /* ViewController.m */; };
+		A7AE75121D0D7FB2005986B7 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE747B1D0D7FB2005986B7 /* Student.m */; };
+		A7AE75131D0D7FB2005986B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE747E1D0D7FB2005986B7 /* AppDelegate.m */; };
+		A7AE75141D0D7FB2005986B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE747F1D0D7FB2005986B7 /* main.m */; };
+		A7AE75151D0D7FB2005986B7 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE74821D0D7FB2005986B7 /* SQLiteManager.m */; };
+		A7AE75161D0D7FB2005986B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74831D0D7FB2005986B7 /* Info.plist */; };
+		A7AE75171D0D7FB2005986B7 /* SQLite的使用.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A7AE74871D0D7FB2005986B7 /* SQLite的使用.xcworkspace */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AE72EA1D0D7B52005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE72C81D0D7B52005986B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AE72CF1D0D7B52005986B7;
+			remoteInfo = 123;
+		};
+		A7AE72F51D0D7B53005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE72C81D0D7B52005986B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AE72CF1D0D7B52005986B7;
+			remoteInfo = 123;
+		};
+		A7AE75191D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73AB1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0F91D0D5D7F00740117;
+			remoteInfo = "08-FMDB的基本使用";
+		};
+		A7AE751D1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE740F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0317FD994A876C3C542EAD63EC7DFC70;
+			remoteInfo = FMDB;
+		};
+		A7AE751F1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE740F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1202E04670D247C789F730BFE895E9D;
+			remoteInfo = "Pods-SQLite的使用";
+		};
+		A7AE75231D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE745F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0317FD994A876C3C542EAD63EC7DFC70;
+			remoteInfo = FMDB;
+		};
+		A7AE75251D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE745F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1202E04670D247C789F730BFE895E9D;
+			remoteInfo = "Pods-SQLite的使用";
+		};
+		A7AE75291D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73D51D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A66CD7D8E862E6AD8B842F9B86F6F689;
+			remoteInfo = FMDB;
+		};
+		A7AE752B1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73D51D0D7FB2005986B7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C28C5573D8250BB6414FE877F9385CF0;
+			remoteInfo = "Pods-08-FMDB的基本使用";
+		};
+		A7AE752E1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73251D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75311D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73371D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75341D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE74841D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75371D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73131D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE753A1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE74341D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE753D1D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE739B1D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75401D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73501D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75431D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73691D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+		A7AE75461D0D7FB3005986B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AE73821D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7052F0BE1D0D39B700740117;
+			remoteInfo = "SQLite的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7AE72D01D0D7B52005986B7 /* 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE72D41D0D7B52005986B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE72D61D0D7B52005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE72D71D0D7B52005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE72D91D0D7B52005986B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE72DA1D0D7B52005986B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE72DD1D0D7B52005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE72DF1D0D7B52005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE72E21D0D7B52005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE72E41D0D7B52005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE72E91D0D7B52005986B7 /* 123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE72ED1D0D7B52005986B7 /* _23Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23Tests.m; sourceTree = "<group>"; };
+		A7AE72EF1D0D7B52005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE72F41D0D7B53005986B7 /* 123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE72F81D0D7B53005986B7 /* _23UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23UITests.m; sourceTree = "<group>"; };
+		A7AE72FA1D0D7B53005986B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73081D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE73091D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE730A1D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE730C1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE730E1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE730F1D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73101D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73111D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73121D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73131D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE73181D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE73191D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE731A1D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE731C1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE731E1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE731F1D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73201D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73211D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE73221D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE73231D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73241D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73251D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE732A1D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE732B1D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE732C1D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE732E1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE73301D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE73311D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73321D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73331D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE73341D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE73351D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73361D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73371D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE733C1D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE733E1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE73401D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE73431D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73441D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73461D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE73471D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE73491D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE734A1D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE734B1D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE734D1D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE734E1D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE734F1D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73501D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE73551D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE73571D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE73591D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE735C1D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE735D1D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE735F1D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE73601D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE73621D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE73631D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE73641D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73661D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE73671D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE73681D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73691D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE736E1D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE73701D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE73721D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE73751D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73761D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73781D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE73791D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE737B1D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE737C1D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE737D1D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE737F1D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE73801D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE73811D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73821D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE73871D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE73891D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE738B1D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE738E1D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE738F1D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73911D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE73921D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE73941D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE73951D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE73961D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73981D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE73991D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE739A1D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE739B1D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE73A01D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE73A11D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE73A21D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE73A41D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE73A61D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE73A71D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE73A81D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE73A91D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE73AA1D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE73AB1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "08-FMDB的基本使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE73AE1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "08-FMDB的基本使用.xcworkspace"; sourceTree = "<group>"; };
+		A7AE73AF1D0D7FB2005986B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7AE73B01D0D7FB2005986B7 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		A7AE73B31D0D7FB2005986B7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A7AE73B41D0D7FB2005986B7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		A7AE73B71D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE73B81D0D7FB2005986B7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A7AE73B91D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE73BA1D0D7FB2005986B7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A7AE73BB1D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE73BC1D0D7FB2005986B7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A7AE73BD1D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE73BE1D0D7FB2005986B7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A7AE73BF1D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE73C01D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE73C11D0D7FB2005986B7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A7AE73C51D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE73C61D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE73C71D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE73C81D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE73C91D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE73CA1D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE73CD1D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE73CE1D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE73CF1D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE73D01D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE73D11D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE73D21D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE73D41D0D7FB2005986B7 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		A7AE73D51D0D7FB2005986B7 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		A7AE73DA1D0D7FB2005986B7 /* FMDB-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		A7AE73DB1D0D7FB2005986B7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		A7AE73DC1D0D7FB2005986B7 /* FMDB.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		A7AE73DE1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-08-FMDB的基本使用-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7AE73DF1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-08-FMDB的基本使用-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AE73E01D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-08-FMDB的基本使用-dummy.m"; sourceTree = "<group>"; };
+		A7AE73E11D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-08-FMDB的基本使用-frameworks.sh"; sourceTree = "<group>"; };
+		A7AE73E21D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-08-FMDB的基本使用-resources.sh"; sourceTree = "<group>"; };
+		A7AE73E31D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-08-FMDB的基本使用.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AE73E41D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-08-FMDB的基本使用.release.xcconfig"; sourceTree = "<group>"; };
+		A7AE73E61D0D7FB2005986B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A7AE73E71D0D7FB2005986B7 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		A7AE73EA1D0D7FB2005986B7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A7AE73EB1D0D7FB2005986B7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		A7AE73EE1D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE73EF1D0D7FB2005986B7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A7AE73F01D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE73F11D0D7FB2005986B7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A7AE73F21D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE73F31D0D7FB2005986B7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A7AE73F41D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE73F51D0D7FB2005986B7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A7AE73F61D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE73F71D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE73F81D0D7FB2005986B7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A7AE73FF1D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE74001D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE74011D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE74021D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE74031D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE74041D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE74071D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE74081D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE74091D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE740A1D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE740B1D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE740C1D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE740E1D0D7FB2005986B7 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		A7AE740F1D0D7FB2005986B7 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		A7AE74141D0D7FB2005986B7 /* FMDB-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		A7AE74151D0D7FB2005986B7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		A7AE74161D0D7FB2005986B7 /* FMDB.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		A7AE74181D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-SQLite的使用-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7AE74191D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-SQLite的使用-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AE741A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLite的使用-dummy.m"; sourceTree = "<group>"; };
+		A7AE741B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SQLite的使用-frameworks.sh"; sourceTree = "<group>"; };
+		A7AE741C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SQLite的使用-resources.sh"; sourceTree = "<group>"; };
+		A7AE741D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SQLite的使用.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AE741E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SQLite的使用.release.xcconfig"; sourceTree = "<group>"; };
+		A7AE74201D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE74221D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE74241D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE74271D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE74281D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE742A1D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE742B1D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE742D1D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE742E1D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE742F1D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE74311D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE74321D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE74331D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE74341D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE74371D0D7FB2005986B7 /* SQLite的使用.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "SQLite的使用.xcworkspace"; sourceTree = "<group>"; };
+		A7AE74391D0D7FB2005986B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A7AE743A1D0D7FB2005986B7 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		A7AE743D1D0D7FB2005986B7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A7AE743E1D0D7FB2005986B7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		A7AE74411D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE74421D0D7FB2005986B7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A7AE74431D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE74441D0D7FB2005986B7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A7AE74451D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE74461D0D7FB2005986B7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A7AE74471D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE74481D0D7FB2005986B7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A7AE74491D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE744A1D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE744B1D0D7FB2005986B7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A7AE744F1D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE74501D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE74511D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE74521D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE74531D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE74541D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE74571D0D7FB2005986B7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A7AE74581D0D7FB2005986B7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A7AE74591D0D7FB2005986B7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A7AE745A1D0D7FB2005986B7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A7AE745B1D0D7FB2005986B7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A7AE745C1D0D7FB2005986B7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A7AE745E1D0D7FB2005986B7 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		A7AE745F1D0D7FB2005986B7 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		A7AE74641D0D7FB2005986B7 /* FMDB-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		A7AE74651D0D7FB2005986B7 /* FMDB-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		A7AE74661D0D7FB2005986B7 /* FMDB.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		A7AE74681D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-SQLite的使用-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7AE74691D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-SQLite的使用-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AE746A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-SQLite的使用-dummy.m"; sourceTree = "<group>"; };
+		A7AE746B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SQLite的使用-frameworks.sh"; sourceTree = "<group>"; };
+		A7AE746C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-SQLite的使用-resources.sh"; sourceTree = "<group>"; };
+		A7AE746D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SQLite的使用.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AE746E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-SQLite的使用.release.xcconfig"; sourceTree = "<group>"; };
+		A7AE74701D0D7FB2005986B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AE74721D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AE74741D0D7FB2005986B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AE74771D0D7FB2005986B7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AE74781D0D7FB2005986B7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AE747A1D0D7FB2005986B7 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A7AE747B1D0D7FB2005986B7 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A7AE747D1D0D7FB2005986B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AE747E1D0D7FB2005986B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AE747F1D0D7FB2005986B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AE74811D0D7FB2005986B7 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		A7AE74821D0D7FB2005986B7 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		A7AE74831D0D7FB2005986B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AE74841D0D7FB2005986B7 /* SQLite的使用.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SQLite的使用.xcodeproj"; sourceTree = "<group>"; };
+		A7AE74871D0D7FB2005986B7 /* SQLite的使用.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "SQLite的使用.xcworkspace"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AE72CD1D0D7B52005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72E61D0D7B52005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72F11D0D7B53005986B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7AE72C71D0D7B52005986B7 = {
+			isa = PBXGroup;
+			children = (
+				A7AE73061D0D7FB2005986B7 /* 01-SQLite的使用(基本使用) */,
+				A7AE73161D0D7FB2005986B7 /* 02-SQLite的使用(工具栏的封装) */,
+				A7AE73281D0D7FB2005986B7 /* 03-SQLite的使用(DML的使用) */,
+				A7AE733A1D0D7FB2005986B7 /* 04-SQLite的使用(插入操作优化) */,
+				A7AE73531D0D7FB2005986B7 /* 05-SQLite的使用(事务) */,
+				A7AE736C1D0D7FB2005986B7 /* 06-SQLite的使用(DQL的使用) */,
+				A7AE73851D0D7FB2005986B7 /* 07-SQLite的使用(查询封装) */,
+				A7AE739E1D0D7FB2005986B7 /* 08-FMDB的基本使用 */,
+				A7AE73E51D0D7FB2005986B7 /* 09-SQLite的使用(FMDB的封装) */,
+				A7AE74381D0D7FB2005986B7 /* 10-SQLite的使用(FMDatabaseQueue) */,
+				A7AE72D21D0D7B52005986B7 /* 123 */,
+				A7AE72EC1D0D7B52005986B7 /* 123Tests */,
+				A7AE72F71D0D7B53005986B7 /* 123UITests */,
+				A7AE72D11D0D7B52005986B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AE72D11D0D7B52005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72D01D0D7B52005986B7 /* 123.app */,
+				A7AE72E91D0D7B52005986B7 /* 123Tests.xctest */,
+				A7AE72F41D0D7B53005986B7 /* 123UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE72D21D0D7B52005986B7 /* 123 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72D61D0D7B52005986B7 /* AppDelegate.h */,
+				A7AE72D71D0D7B52005986B7 /* AppDelegate.m */,
+				A7AE72D91D0D7B52005986B7 /* ViewController.h */,
+				A7AE72DA1D0D7B52005986B7 /* ViewController.m */,
+				A7AE72DC1D0D7B52005986B7 /* Main.storyboard */,
+				A7AE72DF1D0D7B52005986B7 /* Assets.xcassets */,
+				A7AE72E11D0D7B52005986B7 /* LaunchScreen.storyboard */,
+				A7AE72E41D0D7B52005986B7 /* Info.plist */,
+				A7AE72D31D0D7B52005986B7 /* Supporting Files */,
+			);
+			path = 123;
+			sourceTree = "<group>";
+		};
+		A7AE72D31D0D7B52005986B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72D41D0D7B52005986B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7AE72EC1D0D7B52005986B7 /* 123Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72ED1D0D7B52005986B7 /* _23Tests.m */,
+				A7AE72EF1D0D7B52005986B7 /* Info.plist */,
+			);
+			path = 123Tests;
+			sourceTree = "<group>";
+		};
+		A7AE72F71D0D7B53005986B7 /* 123UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE72F81D0D7B53005986B7 /* _23UITests.m */,
+				A7AE72FA1D0D7B53005986B7 /* Info.plist */,
+			);
+			path = 123UITests;
+			sourceTree = "<group>";
+		};
+		A7AE73061D0D7FB2005986B7 /* 01-SQLite的使用(基本使用) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73071D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73131D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "01-SQLite的使用(基本使用)";
+			path = "../../../../Desktop/0612代码/01-SQLite的使用(基本使用)";
+			sourceTree = "<group>";
+		};
+		A7AE73071D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73081D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE73091D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE730A1D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE730B1D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE730D1D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE730F1D0D7FB2005986B7 /* Info.plist */,
+				A7AE73101D0D7FB2005986B7 /* main.m */,
+				A7AE73111D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73121D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE73141D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75381D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73161D0D7FB2005986B7 /* 02-SQLite的使用(工具栏的封装) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73171D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73251D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "02-SQLite的使用(工具栏的封装)";
+			path = "../../../../Desktop/0612代码/02-SQLite的使用(工具栏的封装)";
+			sourceTree = "<group>";
+		};
+		A7AE73171D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73181D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE73191D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE731A1D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE731B1D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE731D1D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE731F1D0D7FB2005986B7 /* Info.plist */,
+				A7AE73201D0D7FB2005986B7 /* main.m */,
+				A7AE73211D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE73221D0D7FB2005986B7 /* SQLiteManager.m */,
+				A7AE73231D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73241D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE73261D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE752F1D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73281D0D7FB2005986B7 /* 03-SQLite的使用(DML的使用) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73291D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73371D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "03-SQLite的使用(DML的使用)";
+			path = "../../../../Desktop/0612代码/03-SQLite的使用(DML的使用)";
+			sourceTree = "<group>";
+		};
+		A7AE73291D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE732A1D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE732B1D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE732C1D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE732D1D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE732F1D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE73311D0D7FB2005986B7 /* Info.plist */,
+				A7AE73321D0D7FB2005986B7 /* main.m */,
+				A7AE73331D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE73341D0D7FB2005986B7 /* SQLiteManager.m */,
+				A7AE73351D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73361D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE73381D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75321D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE733A1D0D7FB2005986B7 /* 04-SQLite的使用(插入操作优化) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE733B1D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73501D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "04-SQLite的使用(插入操作优化)";
+			path = "../../../../Desktop/0612代码/04-SQLite的使用(插入操作优化)";
+			sourceTree = "<group>";
+		};
+		A7AE733B1D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE733C1D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE733D1D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE733F1D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE73411D0D7FB2005986B7 /* Classes */,
+				A7AE734F1D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE73411D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73421D0D7FB2005986B7 /* Controller */,
+				A7AE73451D0D7FB2005986B7 /* Model */,
+				A7AE73481D0D7FB2005986B7 /* Other */,
+				A7AE734C1D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE73421D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73431D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73441D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE73451D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73461D0D7FB2005986B7 /* Student.h */,
+				A7AE73471D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE73481D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73491D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE734A1D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE734B1D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE734C1D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE734D1D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE734E1D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE73511D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75411D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73531D0D7FB2005986B7 /* 05-SQLite的使用(事务) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73541D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73691D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "05-SQLite的使用(事务)";
+			path = "../../../../Desktop/0612代码/05-SQLite的使用(事务)";
+			sourceTree = "<group>";
+		};
+		A7AE73541D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73551D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE73561D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE73581D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE735A1D0D7FB2005986B7 /* Classes */,
+				A7AE73681D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE735A1D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE735B1D0D7FB2005986B7 /* Controller */,
+				A7AE735E1D0D7FB2005986B7 /* Model */,
+				A7AE73611D0D7FB2005986B7 /* Other */,
+				A7AE73651D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE735B1D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE735C1D0D7FB2005986B7 /* ViewController.h */,
+				A7AE735D1D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE735E1D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE735F1D0D7FB2005986B7 /* Student.h */,
+				A7AE73601D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE73611D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73621D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE73631D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE73641D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE73651D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73661D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE73671D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE736A1D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75441D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE736C1D0D7FB2005986B7 /* 06-SQLite的使用(DQL的使用) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE736D1D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE73821D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "06-SQLite的使用(DQL的使用)";
+			path = "../../../../Desktop/0612代码/06-SQLite的使用(DQL的使用)";
+			sourceTree = "<group>";
+		};
+		A7AE736D1D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE736E1D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE736F1D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE73711D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE73731D0D7FB2005986B7 /* Classes */,
+				A7AE73811D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE73731D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73741D0D7FB2005986B7 /* Controller */,
+				A7AE73771D0D7FB2005986B7 /* Model */,
+				A7AE737A1D0D7FB2005986B7 /* Other */,
+				A7AE737E1D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE73741D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73751D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73761D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE73771D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73781D0D7FB2005986B7 /* Student.h */,
+				A7AE73791D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE737A1D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE737B1D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE737C1D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE737D1D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE737E1D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE737F1D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE73801D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE73831D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75471D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73851D0D7FB2005986B7 /* 07-SQLite的使用(查询封装) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73861D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE739B1D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+			);
+			name = "07-SQLite的使用(查询封装)";
+			path = "../../../../Desktop/0612代码/07-SQLite的使用(查询封装)";
+			sourceTree = "<group>";
+		};
+		A7AE73861D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73871D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE73881D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE738A1D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE738C1D0D7FB2005986B7 /* Classes */,
+				A7AE739A1D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE738C1D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE738D1D0D7FB2005986B7 /* Controller */,
+				A7AE73901D0D7FB2005986B7 /* Model */,
+				A7AE73931D0D7FB2005986B7 /* Other */,
+				A7AE73971D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE738D1D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE738E1D0D7FB2005986B7 /* ViewController.h */,
+				A7AE738F1D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE73901D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73911D0D7FB2005986B7 /* Student.h */,
+				A7AE73921D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE73931D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73941D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE73951D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE73961D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE73971D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73981D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE73991D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE739C1D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE753E1D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE739E1D0D7FB2005986B7 /* 08-FMDB的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE739F1D0D7FB2005986B7 /* 08-FMDB的基本使用 */,
+				A7AE73AB1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcodeproj */,
+				A7AE73AE1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcworkspace */,
+				A7AE73AF1D0D7FB2005986B7 /* Podfile */,
+				A7AE73B01D0D7FB2005986B7 /* Podfile.lock */,
+				A7AE73B11D0D7FB2005986B7 /* Pods */,
+			);
+			name = "08-FMDB的基本使用";
+			path = "../../../../Desktop/0612代码/08-FMDB的基本使用";
+			sourceTree = "<group>";
+		};
+		A7AE739F1D0D7FB2005986B7 /* 08-FMDB的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73A01D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE73A11D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE73A21D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE73A31D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE73A51D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE73A71D0D7FB2005986B7 /* Info.plist */,
+				A7AE73A81D0D7FB2005986B7 /* main.m */,
+				A7AE73A91D0D7FB2005986B7 /* ViewController.h */,
+				A7AE73AA1D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = "08-FMDB的基本使用";
+			sourceTree = "<group>";
+		};
+		A7AE73AC1D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE751A1D0D7FB3005986B7 /* 08-FMDB的基本使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73B11D0D7FB2005986B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73B21D0D7FB2005986B7 /* FMDB */,
+				A7AE73C21D0D7FB2005986B7 /* Headers */,
+				A7AE73D31D0D7FB2005986B7 /* Local Podspecs */,
+				A7AE73D41D0D7FB2005986B7 /* Manifest.lock */,
+				A7AE73D51D0D7FB2005986B7 /* Pods.xcodeproj */,
+				A7AE73D81D0D7FB2005986B7 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7AE73B21D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73B31D0D7FB2005986B7 /* LICENSE.txt */,
+				A7AE73B41D0D7FB2005986B7 /* README.markdown */,
+				A7AE73B51D0D7FB2005986B7 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE73B51D0D7FB2005986B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73B61D0D7FB2005986B7 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7AE73B61D0D7FB2005986B7 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73B71D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE73B81D0D7FB2005986B7 /* FMDatabase.m */,
+				A7AE73B91D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE73BA1D0D7FB2005986B7 /* FMDatabaseAdditions.m */,
+				A7AE73BB1D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE73BC1D0D7FB2005986B7 /* FMDatabasePool.m */,
+				A7AE73BD1D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE73BE1D0D7FB2005986B7 /* FMDatabaseQueue.m */,
+				A7AE73BF1D0D7FB2005986B7 /* FMDB.h */,
+				A7AE73C01D0D7FB2005986B7 /* FMResultSet.h */,
+				A7AE73C11D0D7FB2005986B7 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A7AE73C21D0D7FB2005986B7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73C31D0D7FB2005986B7 /* Private */,
+				A7AE73CB1D0D7FB2005986B7 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A7AE73C31D0D7FB2005986B7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73C41D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		A7AE73C41D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73C51D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE73C61D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE73C71D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE73C81D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE73C91D0D7FB2005986B7 /* FMDB.h */,
+				A7AE73CA1D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE73CB1D0D7FB2005986B7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73CC1D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		A7AE73CC1D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73CD1D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE73CE1D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE73CF1D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE73D01D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE73D11D0D7FB2005986B7 /* FMDB.h */,
+				A7AE73D21D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE73D31D0D7FB2005986B7 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		A7AE73D61D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE752A1D0D7FB3005986B7 /* libFMDB.a */,
+				A7AE752C1D0D7FB3005986B7 /* libPods-08-FMDB的基本使用.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE73D81D0D7FB2005986B7 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73D91D0D7FB2005986B7 /* FMDB */,
+				A7AE73DD1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用 */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		A7AE73D91D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73DA1D0D7FB2005986B7 /* FMDB-dummy.m */,
+				A7AE73DB1D0D7FB2005986B7 /* FMDB-prefix.pch */,
+				A7AE73DC1D0D7FB2005986B7 /* FMDB.xcconfig */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE73DD1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73DE1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.markdown */,
+				A7AE73DF1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.plist */,
+				A7AE73E01D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-dummy.m */,
+				A7AE73E11D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-frameworks.sh */,
+				A7AE73E21D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-resources.sh */,
+				A7AE73E31D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.debug.xcconfig */,
+				A7AE73E41D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.release.xcconfig */,
+			);
+			path = "Pods-08-FMDB的基本使用";
+			sourceTree = "<group>";
+		};
+		A7AE73E51D0D7FB2005986B7 /* 09-SQLite的使用(FMDB的封装) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73E61D0D7FB2005986B7 /* Podfile */,
+				A7AE73E71D0D7FB2005986B7 /* Podfile.lock */,
+				A7AE73E81D0D7FB2005986B7 /* Pods */,
+				A7AE741F1D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE74341D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+				A7AE74371D0D7FB2005986B7 /* SQLite的使用.xcworkspace */,
+			);
+			name = "09-SQLite的使用(FMDB的封装)";
+			path = "../../../../Desktop/0612代码/09-SQLite的使用(FMDB的封装)";
+			sourceTree = "<group>";
+		};
+		A7AE73E81D0D7FB2005986B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73E91D0D7FB2005986B7 /* FMDB */,
+				A7AE73F91D0D7FB2005986B7 /* FMDB副本 */,
+				A7AE73FC1D0D7FB2005986B7 /* Headers */,
+				A7AE740D1D0D7FB2005986B7 /* Local Podspecs */,
+				A7AE740E1D0D7FB2005986B7 /* Manifest.lock */,
+				A7AE740F1D0D7FB2005986B7 /* Pods.xcodeproj */,
+				A7AE74121D0D7FB2005986B7 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7AE73E91D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73EA1D0D7FB2005986B7 /* LICENSE.txt */,
+				A7AE73EB1D0D7FB2005986B7 /* README.markdown */,
+				A7AE73EC1D0D7FB2005986B7 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE73EC1D0D7FB2005986B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73ED1D0D7FB2005986B7 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7AE73ED1D0D7FB2005986B7 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73EE1D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE73EF1D0D7FB2005986B7 /* FMDatabase.m */,
+				A7AE73F01D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE73F11D0D7FB2005986B7 /* FMDatabaseAdditions.m */,
+				A7AE73F21D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE73F31D0D7FB2005986B7 /* FMDatabasePool.m */,
+				A7AE73F41D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE73F51D0D7FB2005986B7 /* FMDatabaseQueue.m */,
+				A7AE73F61D0D7FB2005986B7 /* FMDB.h */,
+				A7AE73F71D0D7FB2005986B7 /* FMResultSet.h */,
+				A7AE73F81D0D7FB2005986B7 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A7AE73F91D0D7FB2005986B7 /* FMDB副本 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73FA1D0D7FB2005986B7 /* src */,
+			);
+			path = "FMDB副本";
+			sourceTree = "<group>";
+		};
+		A7AE73FA1D0D7FB2005986B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73FB1D0D7FB2005986B7 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7AE73FB1D0D7FB2005986B7 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A7AE73FC1D0D7FB2005986B7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73FD1D0D7FB2005986B7 /* Private */,
+				A7AE74051D0D7FB2005986B7 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A7AE73FD1D0D7FB2005986B7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73FE1D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		A7AE73FE1D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE73FF1D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE74001D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE74011D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE74021D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE74031D0D7FB2005986B7 /* FMDB.h */,
+				A7AE74041D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE74051D0D7FB2005986B7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74061D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		A7AE74061D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74071D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE74081D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE74091D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE740A1D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE740B1D0D7FB2005986B7 /* FMDB.h */,
+				A7AE740C1D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE740D1D0D7FB2005986B7 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		A7AE74101D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE751E1D0D7FB3005986B7 /* libFMDB.a */,
+				A7AE75201D0D7FB3005986B7 /* libPods-SQLite的使用.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE74121D0D7FB2005986B7 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74131D0D7FB2005986B7 /* FMDB */,
+				A7AE74171D0D7FB2005986B7 /* Pods-SQLite的使用 */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		A7AE74131D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74141D0D7FB2005986B7 /* FMDB-dummy.m */,
+				A7AE74151D0D7FB2005986B7 /* FMDB-prefix.pch */,
+				A7AE74161D0D7FB2005986B7 /* FMDB.xcconfig */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE74171D0D7FB2005986B7 /* Pods-SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74181D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */,
+				A7AE74191D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */,
+				A7AE741A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */,
+				A7AE741B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */,
+				A7AE741C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */,
+				A7AE741D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */,
+				A7AE741E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */,
+			);
+			path = "Pods-SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE741F1D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74201D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE74211D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE74231D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE74251D0D7FB2005986B7 /* Classes */,
+				A7AE74331D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE74251D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74261D0D7FB2005986B7 /* Controller */,
+				A7AE74291D0D7FB2005986B7 /* Model */,
+				A7AE742C1D0D7FB2005986B7 /* Other */,
+				A7AE74301D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE74261D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74271D0D7FB2005986B7 /* ViewController.h */,
+				A7AE74281D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE74291D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE742A1D0D7FB2005986B7 /* Student.h */,
+				A7AE742B1D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE742C1D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE742D1D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE742E1D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE742F1D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE74301D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74311D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE74321D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE74351D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE753B1D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE74381D0D7FB2005986B7 /* 10-SQLite的使用(FMDatabaseQueue) */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74391D0D7FB2005986B7 /* Podfile */,
+				A7AE743A1D0D7FB2005986B7 /* Podfile.lock */,
+				A7AE743B1D0D7FB2005986B7 /* Pods */,
+				A7AE746F1D0D7FB2005986B7 /* SQLite的使用 */,
+				A7AE74841D0D7FB2005986B7 /* SQLite的使用.xcodeproj */,
+				A7AE74871D0D7FB2005986B7 /* SQLite的使用.xcworkspace */,
+			);
+			name = "10-SQLite的使用(FMDatabaseQueue)";
+			path = "../../../../Desktop/0612代码/10-SQLite的使用(FMDatabaseQueue)";
+			sourceTree = "<group>";
+		};
+		A7AE743B1D0D7FB2005986B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE743C1D0D7FB2005986B7 /* FMDB */,
+				A7AE744C1D0D7FB2005986B7 /* Headers */,
+				A7AE745D1D0D7FB2005986B7 /* Local Podspecs */,
+				A7AE745E1D0D7FB2005986B7 /* Manifest.lock */,
+				A7AE745F1D0D7FB2005986B7 /* Pods.xcodeproj */,
+				A7AE74621D0D7FB2005986B7 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7AE743C1D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE743D1D0D7FB2005986B7 /* LICENSE.txt */,
+				A7AE743E1D0D7FB2005986B7 /* README.markdown */,
+				A7AE743F1D0D7FB2005986B7 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE743F1D0D7FB2005986B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74401D0D7FB2005986B7 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A7AE74401D0D7FB2005986B7 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74411D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE74421D0D7FB2005986B7 /* FMDatabase.m */,
+				A7AE74431D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE74441D0D7FB2005986B7 /* FMDatabaseAdditions.m */,
+				A7AE74451D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE74461D0D7FB2005986B7 /* FMDatabasePool.m */,
+				A7AE74471D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE74481D0D7FB2005986B7 /* FMDatabaseQueue.m */,
+				A7AE74491D0D7FB2005986B7 /* FMDB.h */,
+				A7AE744A1D0D7FB2005986B7 /* FMResultSet.h */,
+				A7AE744B1D0D7FB2005986B7 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A7AE744C1D0D7FB2005986B7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE744D1D0D7FB2005986B7 /* Private */,
+				A7AE74551D0D7FB2005986B7 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A7AE744D1D0D7FB2005986B7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE744E1D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		A7AE744E1D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE744F1D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE74501D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE74511D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE74521D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE74531D0D7FB2005986B7 /* FMDB.h */,
+				A7AE74541D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE74551D0D7FB2005986B7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74561D0D7FB2005986B7 /* FMDB */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		A7AE74561D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74571D0D7FB2005986B7 /* FMDatabase.h */,
+				A7AE74581D0D7FB2005986B7 /* FMDatabaseAdditions.h */,
+				A7AE74591D0D7FB2005986B7 /* FMDatabasePool.h */,
+				A7AE745A1D0D7FB2005986B7 /* FMDatabaseQueue.h */,
+				A7AE745B1D0D7FB2005986B7 /* FMDB.h */,
+				A7AE745C1D0D7FB2005986B7 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE745D1D0D7FB2005986B7 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		A7AE74601D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75241D0D7FB3005986B7 /* libFMDB.a */,
+				A7AE75261D0D7FB3005986B7 /* libPods-SQLite的使用.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AE74621D0D7FB2005986B7 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74631D0D7FB2005986B7 /* FMDB */,
+				A7AE74671D0D7FB2005986B7 /* Pods-SQLite的使用 */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		A7AE74631D0D7FB2005986B7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74641D0D7FB2005986B7 /* FMDB-dummy.m */,
+				A7AE74651D0D7FB2005986B7 /* FMDB-prefix.pch */,
+				A7AE74661D0D7FB2005986B7 /* FMDB.xcconfig */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A7AE74671D0D7FB2005986B7 /* Pods-SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74681D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown */,
+				A7AE74691D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist */,
+				A7AE746A1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m */,
+				A7AE746B1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh */,
+				A7AE746C1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh */,
+				A7AE746D1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig */,
+				A7AE746E1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig */,
+			);
+			path = "Pods-SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE746F1D0D7FB2005986B7 /* SQLite的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74701D0D7FB2005986B7 /* Assets.xcassets */,
+				A7AE74711D0D7FB2005986B7 /* LaunchScreen.storyboard */,
+				A7AE74731D0D7FB2005986B7 /* Main.storyboard */,
+				A7AE74751D0D7FB2005986B7 /* Classes */,
+				A7AE74831D0D7FB2005986B7 /* Info.plist */,
+			);
+			path = "SQLite的使用";
+			sourceTree = "<group>";
+		};
+		A7AE74751D0D7FB2005986B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74761D0D7FB2005986B7 /* Controller */,
+				A7AE74791D0D7FB2005986B7 /* Model */,
+				A7AE747C1D0D7FB2005986B7 /* Other */,
+				A7AE74801D0D7FB2005986B7 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7AE74761D0D7FB2005986B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74771D0D7FB2005986B7 /* ViewController.h */,
+				A7AE74781D0D7FB2005986B7 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AE74791D0D7FB2005986B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE747A1D0D7FB2005986B7 /* Student.h */,
+				A7AE747B1D0D7FB2005986B7 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7AE747C1D0D7FB2005986B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE747D1D0D7FB2005986B7 /* AppDelegate.h */,
+				A7AE747E1D0D7FB2005986B7 /* AppDelegate.m */,
+				A7AE747F1D0D7FB2005986B7 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A7AE74801D0D7FB2005986B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE74811D0D7FB2005986B7 /* SQLiteManager.h */,
+				A7AE74821D0D7FB2005986B7 /* SQLiteManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A7AE74851D0D7FB2005986B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE75351D0D7FB3005986B7 /* SQLite的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AE72CF1D0D7B52005986B7 /* 123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE72FD1D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123" */;
+			buildPhases = (
+				A7AE72CC1D0D7B52005986B7 /* Sources */,
+				A7AE72CD1D0D7B52005986B7 /* Frameworks */,
+				A7AE72CE1D0D7B52005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 123;
+			productName = 123;
+			productReference = A7AE72D01D0D7B52005986B7 /* 123.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7AE72E81D0D7B52005986B7 /* 123Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE73001D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123Tests" */;
+			buildPhases = (
+				A7AE72E51D0D7B52005986B7 /* Sources */,
+				A7AE72E61D0D7B52005986B7 /* Frameworks */,
+				A7AE72E71D0D7B52005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AE72EB1D0D7B52005986B7 /* PBXTargetDependency */,
+			);
+			name = 123Tests;
+			productName = 123Tests;
+			productReference = A7AE72E91D0D7B52005986B7 /* 123Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7AE72F31D0D7B53005986B7 /* 123UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE73031D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123UITests" */;
+			buildPhases = (
+				A7AE72F01D0D7B53005986B7 /* Sources */,
+				A7AE72F11D0D7B53005986B7 /* Frameworks */,
+				A7AE72F21D0D7B53005986B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AE72F61D0D7B53005986B7 /* PBXTargetDependency */,
+			);
+			name = 123UITests;
+			productName = 123UITests;
+			productReference = A7AE72F41D0D7B53005986B7 /* 123UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AE72C81D0D7B52005986B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "my xcode01";
+				TargetAttributes = {
+					A7AE72CF1D0D7B52005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A7AE72E81D0D7B52005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7AE72CF1D0D7B52005986B7;
+					};
+					A7AE72F31D0D7B53005986B7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7AE72CF1D0D7B52005986B7;
+					};
+				};
+			};
+			buildConfigurationList = A7AE72CB1D0D7B52005986B7 /* Build configuration list for PBXProject "123" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7AE72C71D0D7B52005986B7;
+			productRefGroup = A7AE72D11D0D7B52005986B7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7AE73AC1D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73AB1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE74101D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE740F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE74601D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE745F1D0D7FB2005986B7 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73D61D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73D51D0D7FB2005986B7 /* Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73261D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73251D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73381D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73371D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE74851D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE74841D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73141D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73131D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE74351D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE74341D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE739C1D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE739B1D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73511D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73501D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE736A1D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73691D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+				{
+					ProductGroup = A7AE73831D0D7FB2005986B7 /* Products */;
+					ProjectRef = A7AE73821D0D7FB2005986B7 /* SQLite的使用.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A7AE72CF1D0D7B52005986B7 /* 123 */,
+				A7AE72E81D0D7B52005986B7 /* 123Tests */,
+				A7AE72F31D0D7B53005986B7 /* 123UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7AE751A1D0D7FB3005986B7 /* 08-FMDB的基本使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "08-FMDB的基本使用.app";
+			remoteRef = A7AE75191D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE751E1D0D7FB3005986B7 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = A7AE751D1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75201D0D7FB3005986B7 /* libPods-SQLite的使用.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SQLite的使用.a";
+			remoteRef = A7AE751F1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75241D0D7FB3005986B7 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = A7AE75231D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75261D0D7FB3005986B7 /* libPods-SQLite的使用.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SQLite的使用.a";
+			remoteRef = A7AE75251D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE752A1D0D7FB3005986B7 /* libFMDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFMDB.a;
+			remoteRef = A7AE75291D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE752C1D0D7FB3005986B7 /* libPods-08-FMDB的基本使用.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-08-FMDB的基本使用.a";
+			remoteRef = A7AE752B1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE752F1D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE752E1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75321D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75311D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75351D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75341D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75381D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75371D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE753B1D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE753A1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE753E1D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE753D1D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75411D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75401D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75441D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75431D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7AE75471D0D7FB3005986B7 /* SQLite的使用.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "SQLite的使用.app";
+			remoteRef = A7AE75461D0D7FB3005986B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AE72CE1D0D7B52005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE74911D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74921D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE750F1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE72E31D0D7B52005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE72E01D0D7B52005986B7 /* Assets.xcassets in Resources */,
+				A7AE74891D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74E71D0D7FB2005986B7 /* Manifest.lock in Resources */,
+				A7AE74DB1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-resources.sh in Resources */,
+				A7AE75061D0D7FB2005986B7 /* FMDB.xcconfig in Resources */,
+				A7AE75081D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist in Resources */,
+				A7AE74DF1D0D7FB2005986B7 /* Podfile.lock in Resources */,
+				A7AE74F91D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE750A1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh in Resources */,
+				A7AE74AA1D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE748B1D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE74CA1D0D7FB2005986B7 /* 08-FMDB的基本使用.xcworkspace in Resources */,
+				A7AE74EB1D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.plist in Resources */,
+				A7AE74B31D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE74DD1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.release.xcconfig in Resources */,
+				A7AE74EE1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh in Resources */,
+				A7AE74E91D0D7FB2005986B7 /* FMDB.xcconfig in Resources */,
+				A7AE74DE1D0D7FB2005986B7 /* Podfile in Resources */,
+				A7AE748A1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE75161D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74CC1D0D7FB2005986B7 /* Podfile.lock in Resources */,
+				A7AE74C51D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74DA1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-frameworks.sh in Resources */,
+				A7AE74D81D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.plist in Resources */,
+				A7AE74F11D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74B21D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74ED1D0D7FB2005986B7 /* Pods-SQLite的使用-frameworks.sh in Resources */,
+				A7AE74A01D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74FC1D0D7FB2005986B7 /* Podfile.lock in Resources */,
+				A7AE74FD1D0D7FB2005986B7 /* LICENSE.txt in Resources */,
+				A7AE749A1D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE750C1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig in Resources */,
+				A7AE74C71D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74CB1D0D7FB2005986B7 /* Podfile in Resources */,
+				A7AE74B01D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74CD1D0D7FB2005986B7 /* LICENSE.txt in Resources */,
+				A7AE74DC1D0D7FB2005986B7 /* Pods-08-FMDB的基本使用.debug.xcconfig in Resources */,
+				A7AE74A71D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE749B1D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74991D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE75101D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE72DE1D0D7B52005986B7 /* Main.storyboard in Resources */,
+				A7AE74931D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74BB1D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74BA1D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74A81D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74BC1D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE74C61D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE74901D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74B91D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74D61D0D7FB2005986B7 /* FMDB.xcconfig in Resources */,
+				A7AE74FB1D0D7FB2005986B7 /* Podfile in Resources */,
+				A7AE74981D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE750B1D0D7FB2005986B7 /* Pods-SQLite的使用-resources.sh in Resources */,
+				A7AE75041D0D7FB2005986B7 /* Manifest.lock in Resources */,
+				A7AE74F01D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig in Resources */,
+				A7AE74F21D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE74FA1D0D7FB2005986B7 /* SQLite的使用.xcworkspace in Resources */,
+				A7AE75171D0D7FB2005986B7 /* SQLite的使用.xcworkspace in Resources */,
+				A7AE74A11D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE74A91D0D7FB2005986B7 /* LaunchScreen.storyboard in Resources */,
+				A7AE749F1D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74D41D0D7FB2005986B7 /* Manifest.lock in Resources */,
+				A7AE74B11D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74F31D0D7FB2005986B7 /* Main.storyboard in Resources */,
+				A7AE748C1D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74C41D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE74C21D0D7FB2005986B7 /* Info.plist in Resources */,
+				A7AE74EF1D0D7FB2005986B7 /* Pods-SQLite的使用.debug.xcconfig in Resources */,
+				A7AE74E01D0D7FB2005986B7 /* LICENSE.txt in Resources */,
+				A7AE750E1D0D7FB2005986B7 /* Assets.xcassets in Resources */,
+				A7AE750D1D0D7FB2005986B7 /* Pods-SQLite的使用.release.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72E71D0D7B52005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72F21D0D7B53005986B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AE72CC1D0D7B52005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE74CE1D0D7FB2005986B7 /* README.markdown in Sources */,
+				A7AE74D31D0D7FB2005986B7 /* FMResultSet.m in Sources */,
+				A7AE74AD1D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE749E1D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74B61D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE75001D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */,
+				A7AE74971D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE74E61D0D7FB2005986B7 /* FMResultSet.m in Sources */,
+				A7AE74BF1D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE74A61D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE748E1D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74D91D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-dummy.m in Sources */,
+				A7AE748D1D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE75071D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown in Sources */,
+				A7AE75111D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74EC1D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m in Sources */,
+				A7AE74881D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE74F51D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE74F71D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74E31D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */,
+				A7AE75131D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE72DB1D0D7B52005986B7 /* ViewController.m in Sources */,
+				A7AE74E51D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */,
+				A7AE74961D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE72D81D0D7B52005986B7 /* AppDelegate.m in Sources */,
+				A7AE74E21D0D7FB2005986B7 /* FMDatabase.m in Sources */,
+				A7AE74D71D0D7FB2005986B7 /* Pods-08-FMDB的基本使用-acknowledgements.markdown in Sources */,
+				A7AE74AE1D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE72D51D0D7B52005986B7 /* main.m in Sources */,
+				A7AE74CF1D0D7FB2005986B7 /* FMDatabase.m in Sources */,
+				A7AE74E11D0D7FB2005986B7 /* README.markdown in Sources */,
+				A7AE74D51D0D7FB2005986B7 /* FMDB-dummy.m in Sources */,
+				A7AE74A21D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE75031D0D7FB2005986B7 /* FMResultSet.m in Sources */,
+				A7AE75021D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */,
+				A7AE74D21D0D7FB2005986B7 /* FMDatabaseQueue.m in Sources */,
+				A7AE74EA1D0D7FB2005986B7 /* Pods-SQLite的使用-acknowledgements.markdown in Sources */,
+				A7AE74AC1D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE74941D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74C11D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE75121D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE74C91D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74FE1D0D7FB2005986B7 /* README.markdown in Sources */,
+				A7AE74F81D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE74B51D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE74B81D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE74A31D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE75151D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE748F1D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE75091D0D7FB2005986B7 /* Pods-SQLite的使用-dummy.m in Sources */,
+				A7AE74AB1D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE749C1D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74A41D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE75011D0D7FB2005986B7 /* FMDatabasePool.m in Sources */,
+				A7AE749D1D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE74E41D0D7FB2005986B7 /* FMDatabasePool.m in Sources */,
+				A7AE74F41D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74BD1D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74D11D0D7FB2005986B7 /* FMDatabasePool.m in Sources */,
+				A7AE74F61D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE74A51D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74FF1D0D7FB2005986B7 /* FMDatabase.m in Sources */,
+				A7AE75051D0D7FB2005986B7 /* FMDB-dummy.m in Sources */,
+				A7AE74BE1D0D7FB2005986B7 /* Student.m in Sources */,
+				A7AE75141D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74951D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE74AF1D0D7FB2005986B7 /* SQLiteManager.m in Sources */,
+				A7AE74E81D0D7FB2005986B7 /* FMDB-dummy.m in Sources */,
+				A7AE74B71D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74C01D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74B41D0D7FB2005986B7 /* ViewController.m in Sources */,
+				A7AE74C81D0D7FB2005986B7 /* main.m in Sources */,
+				A7AE74C31D0D7FB2005986B7 /* AppDelegate.m in Sources */,
+				A7AE74D01D0D7FB2005986B7 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72E51D0D7B52005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE72EE1D0D7B52005986B7 /* _23Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE72F01D0D7B53005986B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE72F91D0D7B53005986B7 /* _23UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AE72EB1D0D7B52005986B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AE72CF1D0D7B52005986B7 /* 123 */;
+			targetProxy = A7AE72EA1D0D7B52005986B7 /* PBXContainerItemProxy */;
+		};
+		A7AE72F61D0D7B53005986B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AE72CF1D0D7B52005986B7 /* 123 */;
+			targetProxy = A7AE72F51D0D7B53005986B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7AE72DC1D0D7B52005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE72DD1D0D7B52005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE72E11D0D7B52005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE72E21D0D7B52005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE730B1D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE730C1D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE730D1D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE730E1D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE731B1D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE731C1D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE731D1D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE731E1D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE732D1D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE732E1D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE732F1D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73301D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE733D1D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE733E1D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE733F1D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73401D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73561D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73571D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73581D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73591D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE736F1D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73701D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73711D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73721D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73881D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73891D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE738A1D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE738B1D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73A31D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73A41D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE73A51D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE73A61D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE74211D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE74221D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE74231D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE74241D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE74711D0D7FB2005986B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE74721D0D7FB2005986B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AE74731D0D7FB2005986B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AE74741D0D7FB2005986B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AE72FB1D0D7B53005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7AE72FC1D0D7B53005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AE72FE1D0D7B53005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7AE72FF1D0D7B53005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7AE73011D0D7B53005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+			};
+			name = Debug;
+		};
+		A7AE73021D0D7B53005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+			};
+			name = Release;
+		};
+		A7AE73041D0D7B53005986B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7AE73051D0D7B53005986B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my-xcode01.-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AE72CB1D0D7B52005986B7 /* Build configuration list for PBXProject "123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72FB1D0D7B53005986B7 /* Debug */,
+				A7AE72FC1D0D7B53005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AE72FD1D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE72FE1D0D7B53005986B7 /* Debug */,
+				A7AE72FF1D0D7B53005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AE73001D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE73011D0D7B53005986B7 /* Debug */,
+				A7AE73021D0D7B53005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AE73031D0D7B53005986B7 /* Build configuration list for PBXNativeTarget "123UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE73041D0D7B53005986B7 /* Debug */,
+				A7AE73051D0D7B53005986B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7AE72C81D0D7B52005986B7 /* Project object */;
+}
